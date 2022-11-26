@@ -1,0 +1,63 @@
+* {
+  background-color: aliceblue;
+  font-size: 16px;
+  padding: 0%;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px;
+  border: #5b84b1ff solid;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: coral;
+}
+
+h1 {
+  font-size: 32px;
+}
+nav a {
+  display: flex;
+  border-radius: 2%;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+#me {
+  display: flex;
+  border: coral solid;
+  border-radius: 2%;
+  height: 400px;
+  width: 25%;
+  margin-left: 5px;
+}
+
+#project {
+  display: flex;
+  border: #5b84b1ff solid;
+  border-radius: 2%;
+  height: 400px;
+  width: 25%;
+  margin-left: 5px;
+}
+#horiseon {
+  display: flex;
+  border: #5b84b1ff solid;
+  border-radius: 2%;
+  height: 400px;
+  width: 25%;
+  margin-left: 5px;
+}
+#prework {
+  display: flex;
+  border: #5b84b1ff solid;
+  border-radius: 2%;
+  height: 400px;
+  width: 25%;
+  margin-left: 5px;
+}
