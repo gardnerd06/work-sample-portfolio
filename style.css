@@ -80,7 +80,7 @@ article {
 #container {
   display: flex;
   gap: 5%;
-  position: relative;
+  /* position: relative; */
   width: 100%;
   padding: 0;
   margin: 10px;
@@ -96,11 +96,15 @@ article {
   width: 400px;
   box-shadow: -30px 30px 20px rgba(19, 19, 19, 0.679);
 }
+.section {
+  position: relative;
+}
 .project_overlay {
   position: absolute;
   top: 0px;
   left: 0px;
   height: 100%;
+
   width: 400px;
   background: rgba(0, 0, 0, 0.6);
   color: whitesmoke;
@@ -146,7 +150,7 @@ article {
 .horiseon_overlay {
   position: absolute;
   top: 0px;
-  left: 487px;
+  /* left: 487px; */
   height: 100%;
   width: 267px;
   background: rgba(0, 0, 0, 0.6);
@@ -195,7 +199,7 @@ article {
 .prework_overlay {
   position: absolute;
   top: 0px;
-  left: 842px;
+  /* left: 842px; */
   height: 100%;
   width: 267px;
   background: rgba(0, 0, 0, 0.6);
