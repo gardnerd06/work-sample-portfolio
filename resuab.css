@@ -12,6 +12,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  line-height: 1.5;
   background: #eae7dc;
   border: black solid 10px;
 }
@@ -45,4 +46,8 @@ footer {
 footer section {
   font-weight: bold;
   text-align: center;
+}
+ol {
+  list-style: inside;
+  padding: 25px;
 }
