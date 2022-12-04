@@ -7,7 +7,7 @@
   padding: 0%;
   margin: 0px;
 }
-
+/* css file for resume and about me pages same styling as the main page */
 body {
   display: flex;
   flex-wrap: wrap;

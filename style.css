@@ -5,6 +5,7 @@
   padding: 0%;
   margin: 0px;
 }
+/* used root styling to establish a baseline */
 body {
   width: 100%;
   height: auto;
@@ -51,6 +52,7 @@ nav {
   float: right;
   padding: 10px;
 }
+/* added shadow styling around nav features and hover functions for nav */
 nav a:hover {
   background: rgba(0, 0, 0, 0.52);
   text-decoration: underline;
@@ -60,7 +62,7 @@ nav a:hover {
 nav a:active {
   background: rgba(255, 197, 96, 0.734);
 }
-
+/* added shadow styling around boxes to create 3d effect */
 #me {
   display: flex;
   flex-direction: row;
@@ -106,6 +108,7 @@ nav a:active {
   width: 400px;
   box-shadow: -30px 30px 20px rgba(19, 19, 19, 0.679);
 }
+/* used overlays and styling options to create photos with clickable links */
 .section {
   position: relative;
 }
@@ -153,6 +156,7 @@ nav a:active {
   height: 400px;
   box-shadow: -30px 30px 20px rgba(19, 19, 19, 0.679);
 }
+/* implemented similar styling on multiple boxes */
 .horiseon_overlay {
   position: absolute;
   top: 0px;
@@ -214,6 +218,7 @@ nav a:active {
   transition: 0.5s;
   text-decoration: none;
 }
+/* added borders and transform functions to simulate movement */
 .prework_overlay > * {
   transform: translateY(20px);
   transition: transform 0.5s;
@@ -295,6 +300,7 @@ footer section {
   font-weight: bold;
   text-align: center;
 }
+/* added media queries to transform look of page when changing sizes */
 
 @media only screen and (max-width: 1250px) {
   #container {

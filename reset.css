@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* reset styling page for optimizing view on multiple browsers */
 html {
   height: 100%;
 }
@@ -14,16 +14,28 @@ body {
   font-family: sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: 100%;
 }
 
-input, select, option, optgroup, textarea, button,
-pre, code {
+input,
+select,
+option,
+optgroup,
+textarea,
+button,
+pre,
+code {
   font-size: 100%;
   font-family: inherit;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
