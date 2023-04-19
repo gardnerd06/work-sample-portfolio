@@ -1,0 +1,19 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #ffffff;
+  color: #159a9c;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+footer a {
+  color: #002333;
+}
+section {
+  font-weight: bold;
+  text-align: center;
+}
