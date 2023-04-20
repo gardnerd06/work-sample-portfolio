@@ -18,7 +18,7 @@ export default function Project() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://picsum.photos/300/300"
+                        src={`${process.env.PUBLIC_URL}/Project/NeoPlants.png`}
                         alt="Neo_Plants Game"
                     />
                     <Carousel.Caption>
@@ -33,7 +33,7 @@ export default function Project() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://picsum.photos/300/300"
+                        src={`${process.env.PUBLIC_URL}/Project/e-commerce.png`}
                         alt="E-Commerce Backend"
                     />
                     <Carousel.Caption>
@@ -48,7 +48,7 @@ export default function Project() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://picsum.photos/300/300"
+                        src={`${process.env.PUBLIC_URL}/Project/Social-media-backend.png`}
                         alt="BackEnd_socialMedia_API"
                     />
                     <Carousel.Caption>
@@ -63,7 +63,7 @@ export default function Project() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://picsum.photos/300/300"
+                        src={`${process.env.PUBLIC_URL}/Project/SQLemployee.png`}
                         alt="MySQL_Tracker_of_Employees"
                     />
                     <Carousel.Caption>
@@ -78,7 +78,7 @@ export default function Project() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://picsum.photos/300/300"
+                        src={`${process.env.PUBLIC_URL}/Project/SVG-LOGO.png`}
                         alt="Logo Maker"
                     />
 
@@ -94,7 +94,7 @@ export default function Project() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://picsum.photos/300/300"
+                        src={`${process.env.PUBLIC_URL}/Project/WeatherDash.png`}
                         alt="Gard22_Weather_Dash"
                     />
                     <Carousel.Caption>

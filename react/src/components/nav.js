@@ -1,5 +1,5 @@
 import React from 'react';
-import './nav.css';
+import './Styles/nav.css';
 import Example from './Modal';
 
 export default function Nav({ currentPage, handlePageChange }) {
