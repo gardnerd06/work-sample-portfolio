@@ -2,20 +2,17 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
-
+// created a Modal display page exporting it with a Contact function to App.js
 export default function Contact() {
     const [show, setShow] = useState(true);
 
     const handleClose = () => setShow(false);
-    // const handleShow = () => setShow(true);
 
+    // used a bootstrap modal to make a contact form, used use state and form to create the page
     return (
         <>
-            {/* <Button variant="info" onClick={handleShow}>
-                CONTACT
-            </Button> */}
 
-            <Modal show={show} onHide={handleClose}>
+            <Modal show={show} onHide={handleClose} hasValidation>
                 <Modal.Header closeButton>
                     <Modal.Title>Contact Me</Modal.Title>
                 </Modal.Header>
@@ -24,19 +21,21 @@ export default function Contact() {
                         <Form.Group className="mb-3" controlId="ControlInput1">
                             <Form.Label>Name</Form.Label>
                             <Form.Control
+                                required
                                 type="text"
                                 placeholder="urName"
                                 autoFocus
-                                required
                             />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="ControlInput2">
                             <Form.Label>Email address</Form.Label>
                             <Form.Control
+                                // used required to make sure user input text and checked input with a regex pattern
+                                required
+                                pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
                                 type="email"
                                 placeholder="name@example.com"
                                 autoFocus
-                                required
                             />
                         </Form.Group>
                         <Form.Group

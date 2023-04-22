@@ -1,0 +1,78 @@
+.caro {
+  display: flex;
+  justify-content: center;
+}
+
+#projects {
+  display: block;
+  border: grey solid;
+  height: 400px;
+  width: 400px;
+  box-shadow: -30px 30px 20px rgba(19, 19, 19, 0.679);
+}
+
+.d-block {
+  height: 70vh;
+  width: 70vw;
+}
+
+.description {
+  font-size: 23px;
+  color: white;
+  width: 100%;
+  display: flex;
+  background-color: rgba(33, 31, 31, 0.655);
+  height: 48vh;
+  align-items: center;
+  flex-direction: column;
+}
+.anchors {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  color: #32eed8;
+  background-color: rgba(33, 31, 31, 0.655);
+}
+/* added hover affects to links throughout slides */
+.anchors a {
+  margin: 1rem;
+  transition: all 0.5s ease;
+  transform: scale(1);
+}
+.anchors a:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  filter: brightness(120%);
+  color: whitesmoke;
+}
+.anchors a:link {
+  color: #32eed8;
+}
+
+.anchors a:visited {
+  color: #32eed8;
+}
+/* adde media queries to dynamically style pages */
+@media only screen and (max-width: 999px) {
+}
+
+@media only screen and (max-width: 992px) {
+  .description {
+    font-size: 20px;
+  }
+  .anchors {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .description {
+    font-size: 15px;
+  }
+  .anchors {
+    font-size: 25px;
+  }
+}

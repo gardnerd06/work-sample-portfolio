@@ -1,9 +1,9 @@
 import React from 'react';
 import './Styles/nav.css';
-import Example from './Modal';
+// created a nav display exporting it with a Nav function to App.js
 
 export default function Nav({ currentPage, handlePageChange }) {
-
+    // this function is handling page changes by calling pages withing the component file whenever the client clicks a link
     return (
 
         <>
@@ -18,9 +18,10 @@ export default function Nav({ currentPage, handlePageChange }) {
                         <a href="#Project"
                             onClick={() => handlePageChange('Project')}
                             className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}
-                        >My Work</a>
+                        >Portfolio</a>
                         <a
                             href="https://docs.google.com/document/d/1U-r9Lxxr127y8jfIvjnKZyvBRWukZZxJrRu8-6IuxIg/edit?usp=sharing"
+                            className='nav-link'
                         >Resume</a>
                         <a href="#Contact"
                             onClick={() => handlePageChange('Contact')}

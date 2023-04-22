@@ -5,7 +5,7 @@ import Project from "./Project";
 import Contact from "./Modal";
 import React, { useState } from 'react';
 
-
+// created a Page display exporting it with a Page function to App.js
 export default function Page() {
     const [currentPage, setCurrentPage] = useState('Display');
 
@@ -27,9 +27,9 @@ export default function Page() {
 
     return (
         <div>
-            {/* We are passing the currentPage from state and the function to update it */}
+            {/* I am passing the currentPage from state and the function to update it */}
             <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-            {/* Here we are calling the renderPage method which will return a component  */}
+            {/* Here I call the renderPage method which will return a component  */}
             {renderPage()}
             <Footer />
         </div>

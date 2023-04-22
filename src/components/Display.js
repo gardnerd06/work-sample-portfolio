@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import './Styles/Display.css';
 
-
+// created a main display page exporting it with a display function to App.js
 export default function Display() {
   return (
     <main id="about">
-      < h1 > My Journey </h1 >
+      <aside>
+        < h1 > My Journey </h1 >
+        <img id='profile' src={`${process.env.PUBLIC_URL}/Project/IMG-1316.jpg`} />
+      </aside>
       <p>
         Hi! I'm Daniel Gardner and welcome to my page. I am a full stack web
         developer just starting off in the industry. I'm currently enrolled in
