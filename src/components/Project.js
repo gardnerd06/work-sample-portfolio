@@ -14,7 +14,7 @@ export default function Project() {
     // used process.env.public_url to get access to photos in the public folder when deployed
     return (
         <div className="caro">
-            <Carousel id="projects" variant="dark" activeIndex={index} onSelect={handleSelect} style={{ width: '60vw', height: '70.25vh' }}>
+            <Carousel id="projects" variant="dark" activeIndex={index} onSelect={handleSelect} >
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
@@ -24,7 +24,8 @@ export default function Project() {
                     <Carousel.Caption>
                         <div className='description'>
                             <h2>Neo Plants Game</h2>
-                            <p>Web based game using MySQL, JS and Node with Express</p>
+                            <p>DESCRIPTION:
+                                Web based game using MySQL, JS and Node with Express</p>
                         </div>
                         <div className='anchors'>
                             <i className="fa-brands fa-square-js fa-xl" ></i>
@@ -43,7 +44,7 @@ export default function Project() {
                     <Carousel.Caption>
                         <div className='description'>
                             <h2>Backend E-Commerce</h2>
-                            <p>Business backend built using MySQL, JS and Node with Sequilize</p>
+                            <p>DESCRIPTION: Business backend built using MySQL, JS and Node with Sequilize</p>
                         </div>
                         <div className='anchors'>
                             <i className="fa-brands fa-square-js fa-xl" ></i>
@@ -62,7 +63,7 @@ export default function Project() {
                     <Carousel.Caption>
                         <div className='description'>
                             <h2>SocialMedia API</h2>
-                            <p>Backend API built using mongoDb, Mongoose and Node.js</p>
+                            <p>DESCRIPTION: Backend API built using mongoDb, Mongoose and Node.js</p>
                         </div>
                         <div className='anchors'>                        <i className="fa-brands fa-square-js fa-xl" ></i>
                             <i className="fa-brands fa-node fa-xl" ></i>
@@ -80,7 +81,7 @@ export default function Project() {
                     <Carousel.Caption>
                         <div className='description'>
                             <h2>MySQL Employee Tracker</h2>
-                            <p>Backend API built using MySQL, Node.js with Inquirer</p>
+                            <p>DESCRIPTION: Backend API built using MySQL, Node.js with Inquirer</p>
                         </div>
                         <div className='anchors'>
                             <i className="fa-brands fa-square-js fa-xl" ></i>
@@ -100,7 +101,7 @@ export default function Project() {
                     <Carousel.Caption>
                         <div className='description'>
                             <h2>SVG Logo Maker</h2>
-                            <p>Logo creator for SVG and to tests using Jest that the functions that renders the shapes for the logo.</p>
+                            <p> DESCRIPTION: Logo creator for SVG and to tests using Jest that the functions that renders the shapes for the logo.</p>
                         </div>
                         <div className='anchors'>
                             <i className="fa-brands fa-square-js fa-xl" ></i>
@@ -119,7 +120,7 @@ export default function Project() {
                     <Carousel.Caption>
                         <div className='description'>
                             <h2>Weather Dashboard</h2>
-                            <p>Weather Dashboard created by me using the openweatherAPI and JS </p>
+                            <p>DESCRIPTION: Weather Dashboard created by me using the openweatherAPI and JS </p>
                         </div>
                         <div className='anchors'>
                             <i className="fa-brands fa-square-js fa-xl" ></i>

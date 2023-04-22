@@ -6,8 +6,8 @@
 #projects {
   display: block;
   border: grey solid;
-  height: 400px;
-  width: 400px;
+  height: 70.25vh;
+  width: 80vw;
   box-shadow: -30px 30px 20px rgba(19, 19, 19, 0.679);
 }
 
@@ -57,6 +57,19 @@
 }
 /* adde media queries to dynamically style pages */
 @media only screen and (max-width: 999px) {
+  #projects {
+    height: 50.25vh;
+  }
+
+  .d-block {
+    height: 50vh;
+    width: 70vw;
+  }
+
+  .description {
+    font-size: 23px;
+    height: 35vh;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -68,11 +81,20 @@
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 749px) {
   .description {
     font-size: 15px;
   }
   .anchors {
     font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .description {
+    font-size: 15px;
+  }
+  .anchors {
+    font-size: 15px;
   }
 }

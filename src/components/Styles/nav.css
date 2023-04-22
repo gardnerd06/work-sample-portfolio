@@ -95,6 +95,7 @@ nav a:active {
   #button {
     flex-direction: column;
     width: 20vw;
+    height: 30vh;
   }
 }
 
@@ -102,5 +103,11 @@ nav a:active {
   header {
     justify-content: center;
     flex-direction: column;
+  }
+  span {
+    display: none;
+  }
+  #button {
+    width: 30vw;
   }
 }
