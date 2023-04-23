@@ -5,6 +5,8 @@
 ## Description
 
 The purpose of the Work portfolio project was to create a React app using create-react-app and artistically express my skills by crafting this webpage. All code has been thoroughly reviewed and structured in proper syntax. I created multiple pages and included multple links to create a fluid webpage UI that's also user friendly. All code and links have been tested for functionality.
+[Deployed Site]<https://gardnerd06.github.io/work-sample-portfolio/#Project>
+[Repo]<https://github.com/gardnerd06/work-sample-portfolio>
 
 ## Table of Content
 
@@ -17,6 +19,9 @@ The purpose of the Work portfolio project was to create a React app using create
 Daniel Gardner
 
 ## Screenshots
+
+![Screenshot (47)](https://user-images.githubusercontent.com/115792714/233811022-e00111ed-0947-4c3a-b622-c4e3d3caea58.png)
+![Screenshot (46)](https://user-images.githubusercontent.com/115792714/233811024-7b97592e-79d8-4cba-8293-e36b2cfd3f7a.png)
 
 ## How to Contribute
 
