@@ -5,7 +5,10 @@
   padding: 0%;
   margin: 0px;
 }
-
+Form {
+  width: 70vw;
+  margin-left: 12px;
+}
 /* used root styling to establish a baseline */
 main {
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
