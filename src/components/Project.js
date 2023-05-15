@@ -114,6 +114,25 @@ export default function Project() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
+                        src={`${process.env.PUBLIC_URL}/Project/pngegg.png`}
+                        alt="Jad Grocery"
+                    />
+                    <Carousel.Caption>
+                        <div className='description'>
+                            <h2>JAD Grocery</h2>
+                            <p> DESCRIPTION: Project 3 Grocery store using React, GraphQL and MongoDB.</p>
+                        </div>
+                        <div className='anchors'>
+                            <i className="fa-brands fa-square-js fa-xl" ></i>
+                            <i className="fa-brands fa-node fa-xl" ></i>
+                            <a href="https://github.com/gardnerd06/JAD" className="fa-solid fa-code fa-xl" ></a>
+                            <a href="https://groceryjad.herokuapp.com/" className="fa-brands fa-chrome fa-xl" ></a>
+                        </div>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
                         src={`${process.env.PUBLIC_URL}/Project/WeatherDash.png`}
                         alt="Gard22_Weather_Dash"
                     />
